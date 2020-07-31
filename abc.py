@@ -15,28 +15,51 @@ df_postProcessing = df
 # print(df_postProcessing)
 # df_postProcessing.to_csv('data_postprocessing.csv', index=False, encoding='utf-8-sig')
 
-df_person = df
-a= df_person.query('(form == "vương_quốc_anh")', inplace = False)
+df_person = df\
 # df.drop_duplicates()
 
-print(a)
+# print(a)
 
 df_person.query('(nerLabel == "B-PER") or (nerLabel == "I-PER")', inplace = True)
 
-# df_temp = df_person.groupby(['form']).agg(np.size)
-# df_temp.sort_values(by=['depLabel'], inplace=True)
+# df_temp.sort_values(by=['depLabel'], ascending=False, inplace=True)
 
 # print(df_temp)
 
+# def foo(x):
+#     print(x[0])
 
-print(df_person)
+# df_person.apply(lambda x: foo(x) , axis = 1)
 # print(df_person)
-df_person.to_csv('z.csv', index=False, encoding='utf-8-sig')
+# df_person.to_csv('z.csv', index=False, encoding='utf-8-sig')
 
 
+def merge2Rows(prevRow, j, i):
+    prevRow[1].form = str(prevRow[1].form) + "_" + str(j.form)
+    df_person.at[prevRow[0], "form"] = prevRow[1].form
 
 
+for i, j in df_person.iterrows():
+    if (j.nerLabel == "I-PER"):
+        merge2Rows(prevRow, j, i) 
+    else:
+        prevRow = [i, j]
 
+df_person.query('(nerLabel == "B-PER")', inplace = True)
+# print(df_person)
+# df_person.to_csv('z.csv', index=False, encoding='utf-8-sig')
+
+# df_temp = df_person.groupby(['form']).agg(np.size)
+# df_temp.sort_values(by=['depLabel'], ascending=False, inplace=True)
+# # df_person.to_csv('z.csv', index=False, encoding='utf-8-sig')
+# print(df_temp["form"])
+
+
+# dup = df_person.pivot_table(index="form",aggfunc={'form': np.size})
+dup = df_person.groupby(['form']).size().reset_index(name="counts")
+dup.sort_values(by=['counts'], ascending=False, inplace=True)
+print(dup)
+dup.to_csv('z.csv', index=False, encoding='utf-8-sig')
 
 
 
