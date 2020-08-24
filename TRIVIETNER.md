@@ -1,22 +1,17 @@
-#### Table of contents
-1. [Introduction](#introduction)
-2. [Usage for Python users](#python)
-3. [Experimental results](#exp)
-
-# TriVietNLP: Identify the most popular people in a dataset <a name="introduction"></a>
-
-## Usage for Python users <a name="python"></a>
-
-**Assume that the Python wrapper of VnCoreNLP is already installed via: `$ pip3 install vncorenlp`**
-
-1.     Connect to Google Drive if using google colab, otherwise skip.
 ```
-    from google.colab import drive
-    drive.mount('/content/drive')
-```
-2.     Extract input to /data
+"""
+    Connect to Google Drive if using google colab, otherwise skip.
+"""
+from google.colab import drive
+drive.mount('/content/drive')
 
 ```
+
+
+```
+"""
+    Extract input to /data
+"""
 import tarfile
 def extracttar(fname):
   if fname.endswith("tar.gz"):
@@ -29,8 +24,12 @@ def extracttar(fname):
       tar.close()
 extracttar("/data/doc3.tar.gz")
 ```
-3. Clone VNCoreNLP and Facebook's FastText:
+
+
 ```
+"""
+    Clone VNCoreNLP and Facebook's FastText
+"""
 !git clone https://github.com/vncorenlp/VnCoreNLP
 !git clone https://github.com/facebookresearch/fastText.git
 %cd fastText
@@ -38,18 +37,27 @@ extracttar("/data/doc3.tar.gz")
 %cd ..
 
 ```
-4. Install Libraries
+
+
 ```
+"""
+    Install Python Library
+"""
 !pip3 install vncorenlp
 !pip3 install underthesea
 !underthesea download tc_general
 !underthesea download tc_bank
 !pip install unidecode
 !pip3 install mechanize
+# !pip3 install fastText
 
 ```
-5. Import Libraries
+
+
 ```
+"""
+    Import Library
+"""
 import fastText
 import unidecode
 from underthesea import classify
@@ -59,9 +67,15 @@ import glob
 import sys
 import numpy as np
 from collections import Counter 
+
+
 ```
-6. Annoate Document: Use VNCore NLP to segmentation, POS tagging, NER, classify and then dependency parsing raw data in data/mnt/doc/doc3/ and save as DataFrame in output/result_labeled_test.csv
+
+
 ```
+"""
+  Annoate Document: Use VNCore NLP to segmentation, POS tagging, NER, classify and then dependency parsing raw data in data/mnt/doc/doc3/ and save as DataFrame in output/result_labeled_test.csv
+"""
 # annotator = VnCoreNLP(address="http://127.0.0.1", port=58644) 
 def annotateDocument(folderInput = 'data/mnt/doc/doc3/', folderOutput = 'output/'):
   annotator = VnCoreNLP("VnCoreNLP/VnCoreNLP-1.1.1.jar", annotators="wseg,pos,ner,parse", max_heap_size='-Xmx2g')
@@ -90,7 +104,8 @@ def annotateDocument(folderInput = 'data/mnt/doc/doc3/', folderOutput = 'output/
 annotateDocument()
 
 ```
-7. Processing:
+
+
 ```
 def preprocessing(file = r'/output/result_labeled.csv'):
     """
@@ -171,7 +186,13 @@ def getKeyw_doc(file = r'/output/result_labeled.csv'):
     df.insert(8,"keywords",keyw_in_doc)
     return df
 ```
-8. Export Processing File:
+
+
+```
+%ls
+# drive/  sample_data/
+```
+
 
 ```
 def processingDoc(folderInput = 'input/', folderOutput = 'output/'):
@@ -191,7 +212,14 @@ def processingDoc(folderInput = 'input/', folderOutput = 'output/'):
 df = processingDoc()
 
 ```
-9. Identify Person:
+
+
+```
+%ls
+# drive/  sample_data/
+```
+
+
 ```
 # -*- coding: utf-8 -*-
 from collections import Counter 
@@ -257,4 +285,61 @@ def classifyDoc():
 
 classifyDoc()
 ```
-## Results <a name="exp"></a>
+
+
+```
+def flatten_d(d):
+  d0 = Counter()
+  d1 = Counter()
+  d2 = Counter()
+
+  for doc in d:
+    d0 = d0 + Counter(doc[0])
+    d1 = d1 + Counter(doc[1])
+    d2 = d2 + Counter(doc[2])
+  return [dict(d0),dict(d1),dict(d2)]
+
+def getKeyw(file = r'output/result_labeled.csv'):
+  df = groupbyPersonLabel(file)
+  df_all = preprocessing(file)
+  temp = []
+  description = []
+  # i = 0
+  for i,j in df.iterrows():
+    # temp[j.form]=pd.DataFrame()
+    keywLO = []
+    keywP = []
+    keyw = []
+    key = []
+
+
+    # i = i + 1
+    # if (i == 10):
+    #     break
+
+
+    for doc in j.document:
+
+      df_key = df_all[df_all['document']==doc]
+      for m,n in df_key.iterrows():
+        if (n.nerLabel =='B-LOC' or n.nerLabel =='B-ORG'or n.nerLabel =='I-LOC' or n.nerLabel =='I-ORG'):
+          keywLO = keywLO + [n.form]
+        elif (n.nerLabel =='B-PER'or n.nerLabel=='I-PER'):
+          keywP = keywP + [n.form]
+        else:
+          keyw = keyw +[n.form]
+      my_dict = [{i:keywLO.count(i) for i in keywLO},{i:keywP.count(i) for i in keywP},{i:keyw.count(i) for i in keyw}]
+      key = key +[my_dict]
+    temp = temp + [key]
+    
+    description = description +['Person number: ' + str(i)]
+  df['keywords'] = [flatten_d(x) for x in temp]
+  df['description']=description
+  # print(df)
+  return df
+# df1 = pd.DataFrame()
+# df1 = getKeyw("output/result_labeled.csv")
+
+
+
+```
