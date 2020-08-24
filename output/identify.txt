@@ -1,0 +1,263 @@
+Document 0: 
+Person: sơn_tùng_m-tp
+Score: 
+[0.01647653 0.0009299  0.00079761 0.00163723 0.         0.00096869
+ 0.00207021 0.         0.00162338]
+Predict: 
+Perdict person: Sơn Tùng M-TP
+Description: Nguyễn Thanh Tùng (sinh ngày 5 tháng 7 năm 1994), thường được biết đến với nghệ danh Sơn Tùng M-TP, là một nam ca sĩ, nhạc sĩ và diễn viên người Việt Nam.
+
+Person: nguyễn_thanh_tùng
+Score: 
+[0.01647653 0.0009299  0.00079761 0.00163723 0.         0.00096869
+ 0.00207021 0.         0.00162338]
+Predict: 
+Perdict person: Sơn Tùng M-TP
+Description: Nguyễn Thanh Tùng (sinh ngày 5 tháng 7 năm 1994), thường được biết đến với nghệ danh Sơn Tùng M-TP, là một nam ca sĩ, nhạc sĩ và diễn viên người Việt Nam.
+
+-------------------------
+Document 1: 
+Person: sơn_tùng_m-tp
+Score: 
+[0.02237971 0.00138163 0.00137664 0.00106146 0.00050607 0.00115116
+ 0.00148515 0.         0.0018315 ]
+Predict: 
+Perdict person: Sơn Tùng M-TP
+Description: Nguyễn Thanh Tùng (sinh ngày 5 tháng 7 năm 1994), thường được biết đến với nghệ danh Sơn Tùng M-TP, là một nam ca sĩ, nhạc sĩ và diễn viên người Việt Nam.
+
+Person: happy
+Score: 
+[0.00823304 0.00138163 0.00137664 0.00106146 0.00050607 0.00115116
+ 0.00148515 0.         0.0018315 ]
+Predict: 
+Perdict person: Sơn Tùng M-TP
+Description: Nguyễn Thanh Tùng (sinh ngày 5 tháng 7 năm 1994), thường được biết đến với nghệ danh Sơn Tùng M-TP, là một nam ca sĩ, nhạc sĩ và diễn viên người Việt Nam.
+
+-------------------------
+Document 2: 
+Person: tùng_sơn
+Score: 
+[0.00412243 0.00158792 0.00186041 0.00305729 0.00210526 0.0016709
+ 0.00253465 0.06477608 0.00238095]
+Predict: 
+Perdict person: Tùng Sơn
+Description: Tùng Sơn là chồng của Trang Lou
+
+Person: trang_lou
+Score: 
+[0.00412243 0.00158792 0.00186041 0.00305729 0.00210526 0.0016709
+ 0.00253465 0.02382979 0.00238095]
+Predict: 
+Perdict person: Tùng Sơn
+Description: Tùng Sơn là chồng của Trang Lou
+
+-------------------------
+Document 3: 
+Person: trần_minh_tùng
+Score: 
+[1.07950216e-03 3.79852938e-04 3.61571015e-04 1.10012012e-03
+ 3.57668662e-02 3.64996942e-04 8.25082508e-05 0.00000000e+00
+ 0.00000000e+00]
+Predict: 
+Perdict person: Trần Minh Tùng
+Description: Tuyên ngôn Độc lập – Tiết 1 – Thầy giáo: Trần Minh Tùng
+
+-------------------------
+Document 4: 
+Person: quang_hải
+Score: 
+[9.74913715e-04 3.53814202e-05 4.08503735e-04 2.64980597e-04
+ 0.00000000e+00 2.63011796e-04 1.57251019e-03 0.00000000e+00
+ 3.42640567e-02]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+Person: huỳnh_anh
+Score: 
+[9.74913715e-04 3.53814202e-05 4.08503735e-04 2.64980597e-04
+ 0.00000000e+00 2.63011796e-04 1.57251019e-03 0.00000000e+00
+ 1.26050420e-02]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+-------------------------
+Document 5: 
+Person: lương_mạnh_hải
+Score: 
+[0.00098258 0.00089822 0.00096749 0.00059224 0.         0.00098491
+ 0.00041688 0.         0.0018797 ]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+Person: thanh_hằng
+Score: 
+[0.00098258 0.00089822 0.00096749 0.00059224 0.         0.00098491
+ 0.00041688 0.         0.0018797 ]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+Person: vũ_ngọc_đãng
+Score: 
+[0.00098258 0.00089822 0.00096749 0.00059224 0.         0.00098491
+ 0.00041688 0.         0.0018797 ]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+Person: minh_tú
+Score: 
+[0.00098258 0.00089822 0.00096749 0.00059224 0.         0.00098491
+ 0.00041688 0.         0.0018797 ]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+Person: cao_thiên_trang
+Score: 
+[0.00098258 0.00089822 0.00096749 0.00059224 0.         0.00098491
+ 0.00041688 0.         0.0018797 ]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+Person: tăng_thanh_hà
+Score: 
+[0.00098258 0.00089822 0.00096749 0.00059224 0.         0.00098491
+ 0.00041688 0.         0.0018797 ]
+Predict: 
+Perdict person: Cầu Thủ Quang Hải
+Description: nan
+
+-------------------------
+Document 6: 
+Person: ngọc_trinh
+Score: 
+[0.00203906 0.00234233 0.00182438 0.00300924 0.00146199 0.00165783
+ 0.0119912  0.         0.00132275]
+Predict: 
+Perdict person: Vũ Khắc Tiệp
+Description: Vũ Khắc Tiệp sinh năm 1983 tại Nam Định với tên khai sinh cũng là Vũ Khắc Tiệp. Hiện tại anh đã chuyển về sinh sống tại thành phố Hồ Chí Minh trong nhiều năm qua cùng với gia đình. Anh cũng được biết đến là một trong những ông trùm của những siêu mẫu có tuổi đời nhỏ nhất hiện nay.
+
+Person: vũ_khắc_tiệp
+Score: 
+[0.00203906 0.00234233 0.00182438 0.00300924 0.00146199 0.00165783
+ 0.03259546 0.         0.00132275]
+Predict: 
+Perdict person: Vũ Khắc Tiệp
+Description: Vũ Khắc Tiệp sinh năm 1983 tại Nam Định với tên khai sinh cũng là Vũ Khắc Tiệp. Hiện tại anh đã chuyển về sinh sống tại thành phố Hồ Chí Minh trong nhiều năm qua cùng với gia đình. Anh cũng được biết đến là một trong những ông trùm của những siêu mẫu có tuổi đời nhỏ nhất hiện nay.
+
+-------------------------
+Document 7: 
+Person: trump
+Score: 
+[0.0010022  0.001024   0.00345219 0.00109759 0.00057208 0.01081515
+ 0.00081791 0.         0.0005176 ]
+Predict: 
+Perdict person: Donald Trump
+Description: Tổng thống Donald Trump, tổng thống Hoa Kỳ. Donald John Trump sinh ngày 14 tháng 6 năm 1946 tại quận Queens thuộc Thành phố New York. Ông là con thứ tư trong số năm người con của Mary Anne (1912–2000), một nhà từ thiện[6] và cũng là một bà nội trợ và Fred Trump (1905–1999), một nhà phát triển bất động sản. Mẹ ông sinh ra tại làng Tong trên đảo Lewis thuộc Scotland. Năm 1930, bà tới Mỹ và gặp Fred Trump. Họ kết hôn năm 1936 và cư trú tại khu Jamaica Estates, Queens, và sau đó Fred Trump trở thành một trong những nhà phát triển bất động sản lớn nhất thành phố. Trump có một người em trai, Robert (sinh năm 1948) và hai chị gái: Maryanne (sinh năm 1937) và Elizabeth (sinh năm 1942). Maryanne là thẩm phán liên bang của Tòa Phúc thẩm Vùng 3 Hoa Kỳ. Ông có một người anh trai, Fred Jr. (1938–1981), chết vì các biến chứng do nghiện rượu.
+
+-------------------------
+Document 8: 
+Person: biden
+Score: 
+[0.0007493  0.00079071 0.01166872 0.00088868 0.0002924  0.00479119
+ 0.00059406 0.         0.        ]
+Predict: 
+Perdict person: Joe Biden
+Description: Joseph Robinette Biden, Jr. (tên thường được gọi Joe Biden; sinh ngày 20 tháng 11 năm 1942) là ứng cử viên Tổng thống Mỹ năm 2020 đại diện cho Đảng Dân chủ. Trước đó, ông đã từng là Phó Tổng thống thứ 47 của Hoa Kỳ, ông giữ chức vụ này từ năm 2009 đến 2017 dưới thời Tổng thống Barack Obama. Trước đó, ông là một thượng nghị sĩ thâm niên của Hoa Kỳ, đại diện tiểu bang Delaware, Hoa Kỳ.
+
+Person: donald_trump
+Score: 
+[0.0007493  0.00079071 0.00429268 0.00088868 0.0002924  0.01302381
+ 0.00059406 0.         0.        ]
+Predict: 
+Perdict person: Donald Trump
+Description: Tổng thống Donald Trump, tổng thống Hoa Kỳ. Donald John Trump sinh ngày 14 tháng 6 năm 1946 tại quận Queens thuộc Thành phố New York. Ông là con thứ tư trong số năm người con của Mary Anne (1912–2000), một nhà từ thiện[6] và cũng là một bà nội trợ và Fred Trump (1905–1999), một nhà phát triển bất động sản. Mẹ ông sinh ra tại làng Tong trên đảo Lewis thuộc Scotland. Năm 1930, bà tới Mỹ và gặp Fred Trump. Họ kết hôn năm 1936 và cư trú tại khu Jamaica Estates, Queens, và sau đó Fred Trump trở thành một trong những nhà phát triển bất động sản lớn nhất thành phố. Trump có một người em trai, Robert (sinh năm 1948) và hai chị gái: Maryanne (sinh năm 1937) và Elizabeth (sinh năm 1942). Maryanne là thẩm phán liên bang của Tòa Phúc thẩm Vùng 3 Hoa Kỳ. Ông có một người anh trai, Fred Jr. (1938–1981), chết vì các biến chứng do nghiện rượu.
+
+Person: trump
+Score: 
+[0.0007493  0.00079071 0.00429268 0.00088868 0.0002924  0.01302381
+ 0.00059406 0.         0.        ]
+Predict: 
+Perdict person: Donald Trump
+Description: Tổng thống Donald Trump, tổng thống Hoa Kỳ. Donald John Trump sinh ngày 14 tháng 6 năm 1946 tại quận Queens thuộc Thành phố New York. Ông là con thứ tư trong số năm người con của Mary Anne (1912–2000), một nhà từ thiện[6] và cũng là một bà nội trợ và Fred Trump (1905–1999), một nhà phát triển bất động sản. Mẹ ông sinh ra tại làng Tong trên đảo Lewis thuộc Scotland. Năm 1930, bà tới Mỹ và gặp Fred Trump. Họ kết hôn năm 1936 và cư trú tại khu Jamaica Estates, Queens, và sau đó Fred Trump trở thành một trong những nhà phát triển bất động sản lớn nhất thành phố. Trump có một người em trai, Robert (sinh năm 1948) và hai chị gái: Maryanne (sinh năm 1937) và Elizabeth (sinh năm 1942). Maryanne là thẩm phán liên bang của Tòa Phúc thẩm Vùng 3 Hoa Kỳ. Ông có một người anh trai, Fred Jr. (1938–1981), chết vì các biến chứng do nghiện rượu.
+
+-------------------------
+Document 9: 
+Person: hải
+Score: 
+[0.00089337 0.00454711 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.00222409]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: trần_hồng_phong
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: hồ_văn_bình
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: hai
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: vân
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: hồng
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: lê_thành_trung
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: bình
+Score: 
+[0.00089337 0.00167279 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+Person: hồ_duy_hải
+Score: 
+[0.00089337 0.00454711 0.00092323 0.00090517 0.0002713  0.00087993
+ 0.00072131 0.         0.0008182 ]
+Predict: 
+Perdict person: Hồ Duy Hải
+Description: Vụ án Hồ Duy Hải là một vụ án hình sự ở Việt Nam xảy ra vào tối ngày 13 tháng 1 năm 2008 tại Bưu cục Cầu Voi, ấp 5, xã Nhị Thành, huyện Thủ Thừa, tỉnh Long An. Trong đó, hai nữ nhân viên bưu điện tên là Nguyễn Thị Ánh Hồng (sinh năm 1985) và Nguyễn Thị Thu Vân (sinh năm 1987) bị giết bằng cách cắt cổ. Ngày 21 tháng 3 năm 2008, nghi phạm Hồ Duy Hải sinh năm 1985 bị bắt.[1] Qua hai lần xét xử sơ thẩm (năm 2008 tại Tòa án nhân dân tỉnh Long An) và phúc thẩm (năm 2009 tại Tòa Phúc thẩm Tòa án nhân dân tối cao tại Thành phố Hồ Chí Minh), Hồ Duy Hải bị kết án tử hình về tội giết người, 5 năm tù về tội cướp tài sản, tổng hợp hình phạt là tử hình. Tuy nhiên, gia đình Hồ Duy Hải liên tục kêu oan. Năm 2011, Viện trưởng Viện kiểm sát nhân dân tối cao Nguyễn Hòa Bình quyết định không kháng nghị vụ án. Năm 2012, Chủ tịch nước Trương Tấn Sang bác đơn xin ân xá của Hồ Duy Hải. Sau đó, trước phản đối của dư luận trong nước và quốc tế cũng như Quốc hội Việt Nam, năm 2014, Chủ tịch nước Trương Tấn Sang ra lệnh tạm dừng thi hành án tử hình đối với Hồ Duy Hải, việc chưa từng có tiền lệ trong lịch sử Tòa án nhân dân tối cao
+
+-------------------------
