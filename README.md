@@ -1,20 +1,24 @@
 #### Table of contents
 1. [Introduction](#introduction)
-2. [Usage for Python users](#python)
-3. [Experimental results](#exp)
+2. [Usage for Python users](#usage)
+3. [Implement in Python](#python)
+4. [Experimental results](#exp)
 
 # TriVietNLP: Identify the most popular people in a dataset <a name="introduction"></a>
 
-## Usage for Python users <a name="python"></a>
+## Usage for Python users  <a name="usage"></a>
+1. Clone this Respository.
+2. Save datasets to `/input` folder.
+3. Run TRIVIETNER.ipynb in jupyter notebook or google colab.
+4. Get the results.
+## Implement in Python <a name="python"></a>
 
-**Assume that the Python wrapper of VnCoreNLP is already installed via: `$ pip3 install vncorenlp`**
-
-1.     Connect to Google Drive if using google colab, otherwise skip.
+1. Connect to Google Drive if using google colab, otherwise skip.
 ```
-    from google.colab import drive
-    drive.mount('/content/drive')
+from google.colab import drive
+drive.mount('/content/drive')
 ```
-2.     Extract input to /data
+2. Extract input to /data
 
 ```
 import tarfile
